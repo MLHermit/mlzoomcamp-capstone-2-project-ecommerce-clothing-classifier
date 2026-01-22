@@ -21,3 +21,28 @@ Get the implementation of the webservice with fastapi in the serve.py script fil
 a quick results on the get and post services:
 <img width="1366" height="768" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/c3d43417-ed70-491e-81b1-f14a04119477" />
 <img width="1366" height="768" alt="Screenshot (187)" src="https://github.com/user-attachments/assets/3236ba67-744e-4f76-b869-33210f4f6dd4" />
+
+
+
+#Dockerfile development
+
+--> the python 3.11-slim as the base image
+
+FROM python:3.11-slim
+
+--> create a working directory, '/app'
+
+WORKDIR /app
+
+--> copy all the files from local maachine directory to the app directory previously created on 2.
+
+COPY . /app
+
+--> install the libraries in the .txt file in desired environment, pip in this case 
+
+RUN pip install -r requirements.txt
+
+--> to host locally on the docker image and expose through the port 8000 on the same image, using uvicorn + fastapi
+
+CMD ["uvicorn", "serve:app", "--host", "0.0.0.0", "--port", "8000"]
+
