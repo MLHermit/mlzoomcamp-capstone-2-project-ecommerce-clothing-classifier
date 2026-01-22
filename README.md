@@ -8,3 +8,8 @@ This is the link to the common FashionMNIST dataset: https://github.com/zalandor
 
 <img width="1366" height="768" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/6eb1e6fb-66ec-4b73-8fa9-124c5c34f705" />
 Above is the image network on the model, viewed on netron.app
+
+Get the implementation of the webservice with fastapi in the serve.py script file
+a quick results on the get and post services:
+<img width="1366" height="768" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/c3d43417-ed70-491e-81b1-f14a04119477" />
+<img width="1366" height="768" alt="Screenshot (187)" src="https://github.com/user-attachments/assets/3236ba67-744e-4f76-b869-33210f4f6dd4" />
