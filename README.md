@@ -6,8 +6,16 @@ Automating garment classification is the aim of this repo, pytorch's CNN model w
 
 This is the link to the common FashionMNIST dataset: https://github.com/zalandoresearch/fashion-mnist
 
+<img width="977" height="393" alt="output 10 classes" src="https://github.com/user-attachments/assets/c3ce2202-a997-41b6-90aa-d7fb7e941887" />
+<img width="416" height="435" alt="output 1" src="https://github.com/user-attachments/assets/979d2ddd-fe3d-414d-a6b2-9a6b87bfebb1" />
+
+Sample of the fabric items with label from the data
+
+
 <img width="1366" height="768" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/6eb1e6fb-66ec-4b73-8fa9-124c5c34f705" />
 Above is the image network on the model, viewed on netron.app
+
+
 
 Get the implementation of the webservice with fastapi in the serve.py script file
 a quick results on the get and post services:
