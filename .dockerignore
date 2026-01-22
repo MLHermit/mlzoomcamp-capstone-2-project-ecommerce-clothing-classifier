@@ -1,0 +1,10 @@
+__pycache__/
+data/
+output 1.png
+output 10 classes.png
+LICENSE
+notebook.ipynb
+notebook.py
+.gitignore
+README.md
+test.ipynb
