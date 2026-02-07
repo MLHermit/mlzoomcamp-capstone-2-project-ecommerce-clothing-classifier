@@ -49,3 +49,6 @@ CMD ["uvicorn", "serve:app", "--host", "0.0.0.0", "--port", "8000"]
 
 https://github.com/MLHermit/mlzoomcamp/blob/main/README.md
 A link to the final certificate
+
+https://github.com/DataTalksClub/machine-learning-zoomcamp
+a link to the parent dtc ml zoomcamp
