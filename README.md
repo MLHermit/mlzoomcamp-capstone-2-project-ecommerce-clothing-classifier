@@ -46,3 +46,6 @@ RUN pip install -r requirements.txt
 
 CMD ["uvicorn", "serve:app", "--host", "0.0.0.0", "--port", "8000"]
 
+
+https://github.com/MLHermit/mlzoomcamp/blob/main/README.md
+A link to the final certificate
